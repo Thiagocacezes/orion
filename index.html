@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Orion Consultoria</title>
-    
+    <link rel="stylesheet" href="./scrypt.js">
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
@@ -292,43 +292,13 @@
 	</div>
 </section>
 </footer>
-
+<script src="scrypt.js"></script>
 
 <link rel="stylesheet" href="https://cdn.positus.global/production/resources/robbu/whatsapp-button/whatsapp-button.css"> 
 <a id="robbu-whatsapp-button" target="_blank" href="https://api.whatsapp.com/send?phone=5511959911259&text=Ol%C3%A1..."> 
 	<div class="rwb-tooltip">Fale Conosco!</div> 
 	<img src="https://cdn.positus.global/production/resources/robbu/whatsapp-button/whatsapp-icon.svg"> </a>
-<script>
-
-let navbar = document.querySelector('.navbar');
-
-document.querySelector('#menu-btn').onclick = () => {
-    navbar.classList.toggle('active');
-    searchForm.classList.remove('active');
-    cartItem.classList.remove('active');
-}
-
-let searchForm = document.querySelector('.search-form');
-
-document.querySelector('#search-btn').onclick = () => {
-    searchForm.classList.toggle('active');
-    navbar.classList.remove('active');
-    cartItem.classList.remove('active');
-}
-
-let cartItem = document.querySelector('.cart-items-container');
-
-document.querySelector('#cart-btn').onclick = () => {
-    cartItem.classList.toggle('active');
-    navbar.classList.remove('active');
-    searchForm.classList.remove('active');
-}
-
-window.onscroll = () => {
-    navbar.classList.remove('active');
-    searchForm.classList.remove('active');
-    cartItem.classList.remove('active');
-}
-</script>
+	
 </body>
+
 </html>
