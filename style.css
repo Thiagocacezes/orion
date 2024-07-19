@@ -490,7 +490,7 @@ section {
     margin: 0 auto;
     font-family: sans-serif;
     line-height: 1.6;
-    
+    font-size: 14px;   
 }
 
 .aviso-de-cookies__conteudo a {
@@ -511,7 +511,7 @@ section {
 }
 
 .aviso-de-cookies__botao:hover {
-    background-color: #00804b;
+    background-color: #496188;
 }
 
 /* media queries  */
