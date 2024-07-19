@@ -15,7 +15,7 @@
     outline: none;
     border: none;
     text-decoration: none;
-    
+
     transition: .2s linear;
 }
 
@@ -50,14 +50,14 @@ section {
 .heading {
     text-align: center;
     color: #fff;
-    
+
     padding-bottom: 3.5rem;
     font-size: 4rem;
 }
 
 .heading span {
     color: var(--main-color);
-    
+
 }
 
 #pre {
@@ -78,12 +78,14 @@ section {
 .btn:hover {
     letter-spacing: .2rem;
 }
+
 #header1 {
-  background: #2656a3;  
+    background: #2656a3;
 }
+
 .header {
-   
-    
+
+
     display: flex;
     height: 80px;
     align-items: center;
@@ -99,7 +101,7 @@ section {
 
 .header .logo img {
     height: 6rem;
-    
+
 }
 
 .header .navbar a {
@@ -111,7 +113,7 @@ section {
     font-size: 20px;
     color: #fff;
     margin-left: 40px;
-    
+
 }
 
 .header .navbar a:hover {
@@ -130,6 +132,7 @@ section {
 .header .icons div:hover {
     color: rgb(15, 19, 43);
 }
+
 #menu-btn {
     display: none;
 }
@@ -244,13 +247,13 @@ section {
 
 .home .content h3 {
     font-size: 5rem;
-    
+
     color: #fff;
 }
 
 .home .content p {
     font-size: 2.5rem;
-    
+
     color: #fff;
     font-weight: lighter;
     line-height: 1.8;
@@ -464,6 +467,51 @@ section {
     color: #fff;
     font-size: 16px;
     margin-bottom: 15px;
+}
+
+.aviso-de-cookies {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #1a1a1a;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.aviso-de-cookies__conteudo {
+    color: #fff;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    line-height: 1.6;
+    
+}
+
+.aviso-de-cookies__conteudo a {
+    color: #2656a3;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.aviso-de-cookies__botao {
+    background-color: #2656a3;
+    padding: 8px 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.aviso-de-cookies__botao:hover {
+    background-color: #00804b;
 }
 
 /* media queries  */
