@@ -239,6 +239,7 @@ section {
     background-position: center;
     padding-left: 50px;
     margin-top: 50px;
+
 }
 
 .home .content {
@@ -247,13 +248,13 @@ section {
 
 .home .content h3 {
     font-size: 5rem;
-
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #fff;
 }
 
 .home .content p {
     font-size: 2.5rem;
-
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #fff;
     font-weight: lighter;
     line-height: 1.8;
@@ -490,7 +491,7 @@ section {
     margin: 0 auto;
     font-family: sans-serif;
     line-height: 1.6;
-    font-size: 14px;   
+    font-size: 14px;
 }
 
 .aviso-de-cookies__conteudo a {
